@@ -3,10 +3,10 @@ import { Header } from "./components/Header";
 import { TitleCard } from "./components/TitleCard.jsx";
 function App() {
   return (
-    <div className="p-10 mx-80 my-12">
+    <div className="p-10 mx-96 my-4 ">
       <Header />
-      <h1 className="text-8xl pt-2 font-extrabold">mahib.log</h1>
-      <p className="text-lg text-gray-500 pt-2 mb-6">
+      <h1 className="text-9xl pt-16 font-extrabold">mahib.log</h1>
+      <p className="text-xl text-gray-500 pt-5 mb-16">
         Study Materials, Findings, Reusable Components, Blogs and everything in
         between.
       </p>
