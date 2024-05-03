@@ -1,7 +1,7 @@
 import { TitleCard } from "../components/TitleCard";
 export function Home() {
   return (
-    <div className="p-10 mx-96 my-4 ">
+    <div>
       <h1 className="text-9xl pt-16 font-extrabold">mahib.log</h1>
       <p className="text-xl text-gray-500 pt-5 mb-16">
         Study Materials, Findings, Reusable Components, Blogs and everything in

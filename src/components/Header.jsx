@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
+
 export function Header() {
   return (
-    <div className="flex gap-4 p-10 mx-96 my-4 ">
-      <button className="text-2xl text-gray-500 hover:text-black">mm</button>
-      <a href="/" className="ml-auto text-xl text-gray-500 hover:text-black">
+    <div className="flex gap-4 ">
+      <Link to="/" className="text-2xl text-gray-500 hover:text-black">
+        mm
+      </Link>
+      <Link to="/" className="text-xl ml-auto text-gray-500 hover:text-black">
         Home
-      </a>
-      <a href="/" className="text-xl text-gray-500 hover:text-black">
+      </Link>
+      <Link to="/Explore" className="text-xl text-gray-500 hover:text-black">
         Explore
-      </a>
+      </Link>
     </div>
   );
 }
