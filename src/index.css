@@ -11,8 +11,9 @@
     @apply font-extrabold;
   }
   p {
-    @apply text-lg;
-    @apply text-gray-500;
+    @apply text-2xl;
+    @apply leading-loose;
+    @apply text-black;
     @apply mt-7;
   }
   h2 {
