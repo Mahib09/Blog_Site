@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <div className="flex gap-4 ">
+    <div className="flex gap-4 p-10 mx-96 my-4 ">
       <button className="text-2xl text-gray-500 hover:text-black">mm</button>
       <a href="/" className="ml-auto text-xl text-gray-500 hover:text-black">
         Home
