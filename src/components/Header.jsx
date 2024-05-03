@@ -12,7 +12,7 @@ export function Header() {
       <Link to="/" className="text-xl ml-auto text-gray-500 hover:text-black">
         Home
       </Link>
-      <Link to="/" className="text-xl text-gray-500 hover:text-black">
+      <Link to="/Explore" className="text-xl text-gray-500 hover:text-black">
         Explore
       </Link>
     </div>

@@ -9,7 +9,7 @@ export function Home() {
       </p>
       <TitleCard
         title="Why This Site?"
-        dateCreated="May 5, 2024"
+        dateCreated="May 1, 2024"
         to="/Whythissite"
       />
     </div>

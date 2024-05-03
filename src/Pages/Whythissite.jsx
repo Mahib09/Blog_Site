@@ -3,7 +3,7 @@ export function Whythissite() {
     <div className="container">
       <div className="mt-16">
         <h1>Why This Site?</h1>
-        <p className="text-xl text-gray-500">May 1st, 2024</p>
+        <p className="text-xl text-gray-500">May 1, 2024</p>
         <p>
           As I was freshening up on React, I was looking at doing some projects
           that would help me refresh on React, which I wanted to do as I am
