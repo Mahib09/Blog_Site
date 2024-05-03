@@ -1,11 +1,10 @@
 import "./App.css";
-import { GotTicket } from "./Pages/GotaTicket.jsx";
 import { Home } from "./Pages/Home.jsx";
 import { Explore } from "./Pages/Explore.jsx";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header.jsx";
 import { Footer } from "./components/Footer.jsx";
-import { Button } from "./components/Button.jsx";
+import { Whythissite } from "./Pages/Whythissite.jsx";
 function App() {
   return (
     <>
@@ -13,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/Explore" element={<Explore />}></Route>
-        <Route path="/GotTicket" element={<GotTicket />}></Route>
+        <Route path="/Whythissite" element={<Whythissite />}></Route>
       </Routes>
       <Footer />
     </>

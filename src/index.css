@@ -6,6 +6,20 @@
   body {
     @apply my-4 p-10;
   }
+  h1 {
+    @apply text-7xl;
+    @apply font-extrabold;
+  }
+  p {
+    @apply text-lg;
+    @apply text-gray-500;
+    @apply mt-7;
+  }
+  h2 {
+    @apply text-5xl;
+    @apply font-extrabold;
+    @apply mt-7;
+  }
 }
 .container {
   max-width: 750px !important;
