@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-
+let USER_THEME = "light";
+let userChoice = localStorage.getItem(USER_THEME);
 export function ThemeToggle() {
   const themes = [
     { value: "dark", label: "DARK" },
@@ -7,7 +8,7 @@ export function ThemeToggle() {
   ];
   const [theme, setTheme] = useState("light");
   useEffect(() => {
-    if (theme === "dark") {
+    if (userChoice === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
@@ -24,7 +25,10 @@ export function ThemeToggle() {
               value={mode.value}
               id={mode.value}
               checked={theme === mode.value}
-              onChange={(e) => setTheme(e.target.value)}
+              onChange={(e) => {
+                setTheme(e.target.value);
+                localStorage.setItem(USER_THEME, e.target.value);
+              }}
               className="accent-neutral-900"
             />
             <label htmlFor={mode.value}>{mode.label}</label>
