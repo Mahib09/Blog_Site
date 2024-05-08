@@ -31,7 +31,12 @@ export function ThemeToggle() {
               }}
               className="accent-neutral-900"
             />
-            <label htmlFor={mode.value}>{mode.label}</label>
+            <label
+              htmlFor={mode.value}
+              className="hover:text-black dark:hover:text-white"
+            >
+              {mode.label}
+            </label>
           </div>
         ))}
       </div>
