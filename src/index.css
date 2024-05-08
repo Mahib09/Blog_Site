@@ -5,6 +5,8 @@
 @layer base {
   body {
     @apply my-4;
+    @apply dark:bg-neutral-900;
+    @apply transition-colors ease-in-out;
   }
   h1 {
     @apply text-7xl;

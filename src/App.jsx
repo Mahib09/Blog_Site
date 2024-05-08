@@ -16,7 +16,6 @@ function App() {
         <Route path="/Explore" element={<Explore />}></Route>
         <Route path="/Whythissite" element={<Whythissite />}></Route>
       </Routes>
-
       <Footer />
     </>
   );
