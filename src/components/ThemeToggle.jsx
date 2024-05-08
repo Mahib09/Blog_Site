@@ -15,7 +15,7 @@ export function ThemeToggle() {
   }, [theme]);
   return (
     <div className="container">
-      <div className="flex gap-3 dark:text-neutral-400 dark:hover:text-white">
+      <div className="flex gap-3 text-gray-500 dark:text-neutral-400 mt-2">
         {themes.map((mode) => (
           <div key={mode.value}>
             <input
@@ -25,6 +25,7 @@ export function ThemeToggle() {
               id={mode.value}
               checked={theme === mode.value}
               onChange={(e) => setTheme(e.target.value)}
+              className="accent-neutral-900"
             />
             <label htmlFor={mode.value}>{mode.label}</label>
           </div>

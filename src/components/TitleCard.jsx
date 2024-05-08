@@ -11,7 +11,7 @@ export function TitleCard(props) {
           {props.dateCreated}
         </p>
       </div>
-      <hr />
+      <hr className="h-2" />
     </Link>
   );
 }
