@@ -2,11 +2,17 @@ import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger);
 export function TitleCard(props) {
   const animate1 = useRef(null);
   useGSAP(() => {
     gsap.from(animate1.current, {
+      scrollTrigger: {
+        trigger: animate1.current,
+        toggleActions: "play pause none reverse",
+      },
       duration: 1,
       y: 30,
       opacity: 0,

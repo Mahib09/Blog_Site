@@ -10,7 +10,7 @@ export function Home() {
   useGSAP(() => {
     gsap.from(animate1.current, {
       duration: 1,
-      y: -30,
+      y: 30,
       opacity: 0,
     });
     gsap.from(animate2.current, {
@@ -35,6 +35,81 @@ export function Home() {
         Study Materials, Findings, Reusable Components, Blogs and everything in
         between.
       </p>
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
+      <TitleCard
+        title="Why This Site?"
+        dateCreated="May 1, 2024"
+        to="/Whythissite"
+      />
       <TitleCard
         title="Why This Site?"
         dateCreated="May 1, 2024"
