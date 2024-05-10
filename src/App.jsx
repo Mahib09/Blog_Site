@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer.jsx";
 import { ThemeToggle } from "./components/ThemeToggle.jsx";
 import { Whythissite } from "./Pages/Whythissite.jsx";
 import { Assets } from "./Pages/Assetstouse.jsx";
+import { JCCard } from "./Pages/Components/JasonChngCard.jsx";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Explore" element={<Explore />}></Route>
         <Route path="/Whythissite" element={<Whythissite />}></Route>
         <Route path="/Assets" element={<Assets />}></Route>
+        <Route path="/JCCard" element={<JCCard />}></Route>
       </Routes>
       <Footer />
     </>

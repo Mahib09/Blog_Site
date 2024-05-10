@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 export function ThemeToggle() {
   const themes = [
-    { value: "dark", label: "DARK" },
-    { value: "light", label: "LIGHT" },
+    { value: "dark", label: "DARK", icon: "Moon" },
+    { value: "light", label: "LIGHT", icon: "Sun" },
   ];
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   useEffect(() => {

@@ -19,6 +19,25 @@ export function Home() {
       opacity: 0,
     });
   }, []);
+  // const pages = [
+  //   {
+  //     id: "3",
+  //     title: "Assets to Use",
+  //     dateCreated: "May 8, 2024",
+  //     to: "/Assets",
+  //   },{
+  //     id: "2",
+  //     title: "Assets to Use",
+  //     dateCreated: "May 8, 2024",
+  //     to: "/Assets",
+  //   },{
+  //     id: "1",
+  //     title: "Why This Site?",
+  //     dateCreated: " May 1, 2024",
+  //     to: "/Whythissite",
+  //   },
+
+  // ];
 
   return (
     <div className="container">
@@ -35,12 +54,25 @@ export function Home() {
         Study Materials, Findings, Reusable Components, Blogs and everything in
         between.
       </p>
+      <TitleCard
+        title="Jason Chang's Simple Card"
+        dateCreated="May 10, 2024"
+        to="/JCCard"
+      />
       <TitleCard title="Assets to Use" dateCreated="May 8, 2024" to="/Assets" />
       <TitleCard
         title="Why This Site?"
         dateCreated="May 1, 2024"
         to="/Whythissite"
       />
+      {/* {pages.map((page) => (
+        <TitleCard
+          key={page.id}
+          title={page.title}
+          dateCreated={page.dateCreated}
+          to={page.to}
+        />
+      ))} */}
     </div>
   );
 }
