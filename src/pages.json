@@ -1,0 +1,23 @@
+[
+  {
+    "id": "3",
+    "title": "Jason Chang's Simple Card Component",
+    "dateCreated": "May 10, 2024",
+    "to": "/JCCard",
+    "group": { "name": "components", "groupLink": "/components" }
+  },
+  {
+    "id": "2",
+    "title": "Assets to Use",
+    "dateCreated": "May 8, 2024",
+    "to": "/Assets",
+    "group": { "name": "references", "groupLink": "/references" }
+  },
+  {
+    "id": "1",
+    "title": "Why This Site?",
+    "dateCreated": " May 1, 2024",
+    "to": "/Whythissite",
+    "group": { "name": "", "groupLink": "/" }
+  }
+]

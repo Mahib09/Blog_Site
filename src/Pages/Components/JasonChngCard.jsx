@@ -7,7 +7,8 @@ export function JCCard() {
     <>
       <div>
         <div
-          className="flex content-center wrap ml-10 mt-5 mb-2 h-[var(--height)] w-[var(--width)] bg-white border rounded-md shadow-lg hover:shadow-2xl transition-shadow ease-in-out "
+          className="flex content-center wrap ml-10 mt-5 mb-2 h-[var(--height)] w-[var(--width)]
+           bg-white border rounded-md shadow-lg hover:shadow-2xl transition-shadow ease-in-out "
           style={{ "--height": height, "--width": width }}
         >
           <img src={props.src} className="object-contain"></img>

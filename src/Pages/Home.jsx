@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { TitleCard } from "../components/TitleCard";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-
+import pages from "../pages.json";
 gsap.registerPlugin(useGSAP);
 export function Home() {
   const animate1 = useRef(null);
@@ -19,26 +19,6 @@ export function Home() {
       opacity: 0,
     });
   }, []);
-  const pages = [
-    {
-      id: "3",
-      title: "Jason Chang's Simple Card Component",
-      dateCreated: "May 10, 2024",
-      to: "/JCCard",
-    },
-    {
-      id: "2",
-      title: "Assets to Use",
-      dateCreated: "May 8, 2024",
-      to: "/Assets",
-    },
-    {
-      id: "1",
-      title: "Why This Site?",
-      dateCreated: " May 1, 2024",
-      to: "/Whythissite",
-    },
-  ];
 
   return (
     <div className="container">
@@ -46,7 +26,7 @@ export function Home() {
         ref={animate2}
         className="text-4xl mt-10 sm:text-7xl dark:text-white relative "
       >
-        mahib.log
+        mahib blog
       </h1>
       <p
         ref={animate1}

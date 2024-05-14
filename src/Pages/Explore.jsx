@@ -14,6 +14,18 @@ export function Explore() {
         <Link to="/">
           <TagButton name="All" />
         </Link>
+        <Link to="/">
+          <TagButton name="Components"></TagButton>
+        </Link>
+        <Link to="/">
+          <TagButton name="Assets"></TagButton>
+        </Link>
+        <Link to="/">
+          <TagButton name="Guides"></TagButton>
+        </Link>
+        <Link to="/">
+          <TagButton name="Cheatsheets"></TagButton>
+        </Link>
       </div>
     </div>
   );
