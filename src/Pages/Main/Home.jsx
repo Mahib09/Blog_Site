@@ -22,16 +22,10 @@ export function Home() {
 
   return (
     <div className="container">
-      <h1
-        ref={animate2}
-        className="text-4xl mt-10 sm:text-7xl dark:text-white relative "
-      >
+      <h1 ref={animate2} className="relative ">
         mahib blog
       </h1>
-      <p
-        ref={animate1}
-        className="text-base text-gray-500 mt-2 mb-4 sm:text-lg dark:text-neutral-400"
-      >
+      <p ref={animate1} className="subtitle">
         Study Materials, Findings, Reusable Components, Blogs and everything in
         between.
       </p>

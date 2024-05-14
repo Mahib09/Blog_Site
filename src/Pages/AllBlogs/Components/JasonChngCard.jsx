@@ -31,13 +31,11 @@ export function JCCard() {
   return (
     <div className="container">
       <div className="mt-16">
-        <h1 className="text-4xl sm:text-7xl dark:text-white">
-          Jason Chang&apos;s Simple Card Component
-        </h1>
+        <h1>Jason Chang&apos;s Simple Card Component</h1>
         <p className="text-base text-gray-500 mt-2 mb-4 sm:text-lg dark:text-neutral-400">
           May 10, 2024
         </p>
-        <p className="text-base text-slate-900 mt-2 mb-4 sm:text-xl dark:text-slate-200">
+        <p>
           This is a recreation of a card component by
           <a href="https://www.ethanchng.com/" className="font-bold">
             {" "}
@@ -47,6 +45,7 @@ export function JCCard() {
           me think oh that&apos;s cool, I can use it in my sites and we are
           here.
         </p>
+
         <div className="flex flex-col sm:flex-row sm:justify-center justify-center">
           <div>
             <div className="flex content-center wrap ml-10 mt-5 mb-2 h-[250px] w-[250px] bg-white border rounded-md shadow-lg hover:shadow-2xl transition-shadow ease-in-out dark:shadow-gray-500"></div>
@@ -74,9 +73,7 @@ export function JCCard() {
           </div>
         </div>
 
-        <p className="text-base text-slate-900 mt-2 mb-4 sm:text-xl dark:text-slate-200">
-          Source Code
-        </p>
+        <p>Source Code</p>
         <CodeBlock text={codeblock1} language="javascript" theme={dracula} />
       </div>
     </div>
