@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import { TitleCard } from "../components/TitleCard";
+import { TitleCard } from "../../components/TitleCard";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import pages from "../pages.json";
+import pages from "../../pages.json";
 gsap.registerPlugin(useGSAP);
 export function Home() {
   const animate1 = useRef(null);

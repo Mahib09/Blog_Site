@@ -1,4 +1,4 @@
-import TagButton from "../components/TagButton";
+import TagButton from "../../components/TagButton";
 import { Link } from "react-router-dom";
 export function Explore() {
   return (
@@ -14,7 +14,7 @@ export function Explore() {
         <Link to="/">
           <TagButton name="All" />
         </Link>
-        <Link to="/">
+        <Link to="/Components">
           <TagButton name="Components"></TagButton>
         </Link>
         <Link to="/">
