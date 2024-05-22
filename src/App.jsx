@@ -24,8 +24,8 @@ function App() {
 
         {/* pages */}
         <Route path="/Whythissite" element={<Whythissite />}></Route>
-        <Route path="/Assets" element={<Assets />}></Route>
-        <Route path="/JCCard" element={<JCCard />}></Route>
+        <Route path="/ReactAssetstouse" element={<Assets />}></Route>
+        <Route path="/Components/JCCard" element={<JCCard />}></Route>
       </Routes>
       <Footer />
     </>

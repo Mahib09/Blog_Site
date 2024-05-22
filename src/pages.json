@@ -3,14 +3,14 @@
     "id": "3",
     "title": "Jason Chang's Simple Card Component",
     "dateCreated": "May 10, 2024",
-    "to": "/JCCard",
+    "to": "/Components/JCCard",
     "group": { "name": "components", "groupLink": "/components" }
   },
   {
     "id": "2",
-    "title": "Assets to Use",
+    "title": "React Assets to Use",
     "dateCreated": "May 8, 2024",
-    "to": "/Assets",
+    "to": "/ReactAssetstouse",
     "group": { "name": "references", "groupLink": "/references" }
   },
   {
