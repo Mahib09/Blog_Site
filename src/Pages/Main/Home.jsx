@@ -23,7 +23,7 @@ export function Home() {
   return (
     <div className="container">
       <h1 ref={animate2} className="relative ">
-        mahib blog
+        mahib.fyi
       </h1>
       <p ref={animate1} className="subtitle">
         Study Materials, Findings, Reusable Components, Blogs and everything in
