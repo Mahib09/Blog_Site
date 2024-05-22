@@ -29,7 +29,7 @@ export function ThemeToggle() {
               id={mode.value}
               checked={theme === mode.value}
               onChange={handleChange}
-              className="accent-neutral-900"
+              className="accent-neutral-900 dark:accent-white"
             />
             <label
               htmlFor={mode.value}
