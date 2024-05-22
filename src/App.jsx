@@ -16,7 +16,7 @@ function App() {
       <ThemeToggle />
       <Routes>
         {/* main pages */}
-        <Route path="/Blog_Site/" element={<Home />}></Route>
+        <Route path="/Blog_Site" element={<Home />}></Route>
         <Route path="/Explore" element={<Explore />}></Route>
 
         {/* groups */}
