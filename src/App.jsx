@@ -1,7 +1,7 @@
 import "./App.css";
 import { Home } from "./Pages/Main/Home.jsx";
 import { Explore } from "./Pages/Main/Explore.jsx";
-import { Route, Routes } from "react-router-dom";
+import { Outlet, Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { ThemeToggle } from "./components/ThemeToggle.jsx";
@@ -14,6 +14,7 @@ function App() {
     <>
       <Header />
       <ThemeToggle />
+      <Outlet />
       <Routes>
         {/* main pages */}
         <Route path="/" element={<Home />}></Route>
