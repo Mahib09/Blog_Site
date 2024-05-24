@@ -7,7 +7,7 @@ import { Footer } from "./components/Footer.jsx";
 import { ThemeToggle } from "./components/ThemeToggle.jsx";
 import { Whythissite } from "./Pages/AllBlogs/Whythissite.jsx";
 import { Assets } from "./Pages/AllBlogs/Assetstouse.jsx";
-import { JCCard } from "./Pages/AllBlogs/Components/JasonChngCard.jsx";
+import { JCCard } from "./Pages/AllBlogs/Components/EthanChngCard.jsx";
 import Components from "./Pages/PageGroups/Components.jsx";
 function App() {
   return (
