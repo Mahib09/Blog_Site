@@ -31,7 +31,7 @@ export function JCCard() {
   return (
     <div className="container">
       <div className="mt-16">
-        <h1>Jason Chang&apos;s Simple Card Component</h1>
+        <h1>Ethan Chang&apos;s Simple Card Component</h1>
         <p className="text-base text-gray-500 mt-2 mb-4 sm:text-lg dark:text-neutral-400">
           May 10, 2024
         </p>

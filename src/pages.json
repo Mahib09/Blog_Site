@@ -1,7 +1,7 @@
 [
   {
     "id": "3",
-    "title": "Jason Chang's Simple Card Component",
+    "title": "Ethan Chang's Simple Card Component",
     "dateCreated": "May 10, 2024",
     "to": "/Components/JCCard",
     "group": { "name": "components", "groupLink": "/components" }
