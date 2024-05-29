@@ -18,7 +18,7 @@ export function Explore() {
         <Link to="/">
           <TagButton name="Assets"></TagButton>
         </Link>
-        <Link to="/">
+        <Link to="/Guides">
           <TagButton name="Guides"></TagButton>
         </Link>
         <Link to="/">

@@ -1,5 +1,12 @@
 [
   {
+    "id": "4",
+    "title": "How to Deploy Vite+React Application via Vercel",
+    "dateCreated": "May 28, 2024",
+    "to": "/Guides/DeployViteReactAppToVercel",
+    "group": { "name": "guides", "groupLink": "/guides" }
+  },
+  {
     "id": "3",
     "title": "Ethan Chang's Simple Card Component",
     "dateCreated": "May 10, 2024",

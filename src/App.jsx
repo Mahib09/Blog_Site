@@ -9,6 +9,8 @@ import { Whythissite } from "./Pages/AllBlogs/Whythissite.jsx";
 import { Assets } from "./Pages/AllBlogs/Assetstouse.jsx";
 import { JCCard } from "./Pages/AllBlogs/Components/EthanChngCard.jsx";
 import Components from "./Pages/PageGroups/Components.jsx";
+import HowToDeployOnVercel from "./Pages/AllBlogs/Guides/HowToDeployOnVercel.jsx";
+import Guides from "./Pages/PageGroups/Guides.jsx";
 function App() {
   return (
     <>
@@ -21,11 +23,16 @@ function App() {
 
         {/* groups */}
         <Route path="/Components" element={<Components />}></Route>
+        <Route path="/Guides" element={<Guides />}></Route>
 
         {/* pages */}
         <Route path="/Whythissite" element={<Whythissite />}></Route>
         <Route path="/ReactAssetstouse" element={<Assets />}></Route>
         <Route path="/Components/JCCard" element={<JCCard />}></Route>
+        <Route
+          path="/Guides/DeployViteReactAppToVercel"
+          element={<HowToDeployOnVercel />}
+        ></Route>
       </Routes>
       <Footer />
     </>
