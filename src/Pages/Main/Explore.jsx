@@ -21,7 +21,7 @@ export function Explore() {
         <Link to="/Guides">
           <TagButton name="Guides"></TagButton>
         </Link>
-        <Link to="/">
+        <Link to="/Cheatsheets">
           <TagButton name="Cheatsheets"></TagButton>
         </Link>
       </div>

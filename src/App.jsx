@@ -11,6 +11,8 @@ import { JCCard } from "./Pages/AllBlogs/Components/EthanChngCard.jsx";
 import Components from "./Pages/PageGroups/Components.jsx";
 import HowToDeployOnVercel from "./Pages/AllBlogs/Guides/HowToDeployOnVercel.jsx";
 import Guides from "./Pages/PageGroups/Guides.jsx";
+import Cheatsheets from "./Pages/PageGroups/Cheatsheets.jsx";
+import Algorithms from "./Pages/AllBlogs/Cheatsheets/Algorithms.jsx";
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
         {/* groups */}
         <Route path="/Components" element={<Components />}></Route>
         <Route path="/Guides" element={<Guides />}></Route>
+        <Route path="/Cheatsheets" element={<Cheatsheets />}></Route>
 
         {/* pages */}
         <Route path="/Whythissite" element={<Whythissite />}></Route>
@@ -32,6 +35,10 @@ function App() {
         <Route
           path="/Guides/DeployViteReactAppToVercel"
           element={<HowToDeployOnVercel />}
+        ></Route>
+        <Route
+          path="/Cheatsheets/AlgorithmCheatsheet"
+          element={<Algorithms />}
         ></Route>
       </Routes>
       <Footer />

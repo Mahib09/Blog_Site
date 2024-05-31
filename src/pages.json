@@ -1,5 +1,12 @@
 [
   {
+    "id": "5",
+    "title": "Algorithms Cheatsheets",
+    "dateCreated": "May 31, 2024",
+    "to": "/Cheatsheets/AlgorithmCheatsheet",
+    "group": { "name": "cheatsheets", "groupLink": "/cheatsheets" }
+  },
+  {
     "id": "4",
     "title": "How to Deploy Vite+React Application via Vercel",
     "dateCreated": "May 28, 2024",

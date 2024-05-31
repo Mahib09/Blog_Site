@@ -45,7 +45,7 @@ export default function HowToDeployOnVercel() {
         Now as you have a vercel account you have to create a vercel.json file
         on the root of your folder with the following code:
       </p>
-      <CodeBlock text={verceljsoncode} language="json" theme={dracula} />
+      <CodeBlock text={verceljsoncode} language="javascript" theme={dracula} />
       <p>
         This helps you setup your routing links properly, if not added you will
         get 404 page not found error if you want to visit any of your links for
@@ -58,7 +58,7 @@ export default function HowToDeployOnVercel() {
         Following step 1, Now you have to add following script to you
         package.json file that you can find on the root of your folder
       </p>
-      <CodeBlock text={packagescript} language="json" theme={dracula} />
+      <CodeBlock text={packagescript} language="javascript" theme={dracula} />
     </div>
   );
 }
