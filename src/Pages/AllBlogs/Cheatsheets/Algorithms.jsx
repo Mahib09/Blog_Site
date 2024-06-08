@@ -11,7 +11,7 @@ export default function Algorithms() {
           <ChevronLeft size={40} strokeWidth={1} />
         </button>
 
-        <ul className=" m-auto hide-scrollbar flex flex-row gap-2 overflow-x-auto whitespace-nowrap max-w-[95%]">
+        <ul className="m-auto hide-scrollbar flex flex-row gap-2 overflow-x-auto whitespace-nowrap max-w-[95%]">
           <li>
             <TagButton name="Math Algorithms" className="active" />
           </li>
